@@ -17,9 +17,13 @@ Pre-trained Models:
 
 #### Summary and Insights
 Data Collection: The dataset consists of tweets related to the clean energy transition. This data was sourced from Kaggle, a popular platform for machine learning and data science projects.
+
 Data Preprocessing: The raw tweets were preprocessed to make them suitable for analysis. This involved cleaning the tweets to remove URLs, user mentions, numbers, and stopwords. This step is crucial as it removes unnecessary noise from the data and helps in extracting meaningful insights.
+
 Sentiment Analysis Models: An ensemble of pre-trained models was used for sentiment classification. This ensemble included VADER, TextBlob, BERT, RoBERTa, and Pattern. Each of these models has its own strengths and weaknesses, and using them in combination helps in achieving more robust and reliable results.
+
 Majority Voting: The final sentiment labels were determined by majority voting across the models. This means that for each tweet, the sentiment label that was predicted by the majority of the models was chosen as the final label. This approach helps in mitigating the biases of individual models and ensures more unbiased results.
+
 Results: The sentiment analysis revealed that a significant proportion of the tweets had a positive sentiment towards the clean energy transition. This indicates a generally positive public perception of the clean energy transition, as reflected in the analyzed tweets.
 
 
